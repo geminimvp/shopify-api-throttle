@@ -4,7 +4,7 @@ module ShopifyAPI
   module Throttle
     # Connection hack
     require 'shopify_api'
-    require 'shopify-api-limits/shopify_api/base'
+    require 'shopify-api-throttle/shopify_api/base'
     
     require 'shopify-api-throttle/shopify_api/limits'
     require 'shopify-api-throttle/shopify_api/throttle'
